@@ -26,7 +26,7 @@ import { PredictionAlgorithmRegistryService } from
 import { TextInputPredictionService } from
   'interactions/TextInput/text-input-prediction.service';
 
-describe('Prediction Algorithm Registry Service', () => {
+fdescribe('Prediction Algorithm Registry Service', () => {
   beforeEach(() => {
     this.registryService = TestBed.get(PredictionAlgorithmRegistryService);
 
